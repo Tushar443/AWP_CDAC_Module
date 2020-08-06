@@ -1,0 +1,14 @@
+.common_div{
+    height: 50vh;
+    background: black;
+    flex: 1;
+    font-size: 50px;
+     justify-content: center;
+     align-items: center;
+     border: 5px solid black;
+     border-radius: 15px;
+     margin-left: 16px;
+     font-family: 'Times New Roman', Times, serif;
+
+     
+}
