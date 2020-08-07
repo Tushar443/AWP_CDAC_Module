@@ -1,0 +1,41 @@
+.Main{
+    background-color: chartreuse; 
+    display: flex; 
+    height: 1500px;
+}
+.child1{
+    flex: 1; 
+    background: cyan;
+}
+.child2{
+    flex: 4;
+         background: darkorange; 
+         display: flex;
+          flex-direction: column;
+}
+.child2-1{
+    font-size: 30px; 
+    flex: 4;
+}
+.child2-2{
+    display: flex; 
+    justify-content: space-between;
+    background: cornsilk; 
+    flex: 1;
+}
+.child2-2-1{
+    margin: 16px;
+    border: 2px solid black; 
+    padding: 5px; 
+    color: white;
+    background: darkgreen;
+    border-radius: 10px;
+}
+.child2-3{
+    flex: 109;
+    background: coral; 
+    height: 50px;
+}
+.text_style{
+    padding-left:10px ;
+}
