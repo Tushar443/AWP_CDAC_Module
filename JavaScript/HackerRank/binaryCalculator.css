@@ -1,0 +1,88 @@
+#main{
+    display: flex;
+    flex-direction: column;    
+}
+#res{
+    background: lightgray;
+    border: 2px solid;
+    height: 48px;
+    font-size: 20px;
+}
+#btns{
+    height: 36px;
+    font-size: 18px;
+    margin: 0px;
+    float: left;
+}
+#Zero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#One{
+    display: flex;
+}
+#btn0{
+    background: lightgreen;
+    color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#btn1{
+    background: lightgreen;
+    color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#btnClr{
+    background: darkgreen;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#btnEql{
+    background: darkgreen;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#btnSum{
+    background: black;
+    color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#btnSub{
+    background: black;
+    color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#btnMul{
+    background: black;
+    color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#btnDiv{
+    background: black;
+    color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.Allbtn{
+    height: 20px;
+    width: 5000px;
+    padding: 5px;
+}
