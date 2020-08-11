@@ -1,0 +1,119 @@
+
+body
+{
+	margin: 0;
+	padding: 0;
+	background-image:url("cook-366875_1920.jpg");
+	background-size: cover;
+}
+#navB
+{
+    width:1350px;
+	height:90px;
+    position:fixed;
+    left: 0.5%;
+	top:1%;
+	color:white;
+    background-size: cover;
+    background-position:center;
+	border-radius:20px;
+	text-shadow:1px 2px 3px black;
+}
+.N1
+{
+    text-align: justify;
+    text-decoration: none;
+    font-weight:bold;
+    letter-spacing: 3px;
+    left: 550px;
+    text-justify: auto;
+	font-family:"Times New Roman, serif";
+    font-style:normal;
+    font-size:130%;
+    margin-top: 30px;
+    margin-left: 15px;
+	color: white; 
+}
+#navB .N1 a
+{
+    color:white;
+    text-decoration: none;
+    font-size: 22px;
+}
+#navB .N1 a:hover
+{
+    color:rgb(214, 236, 17);
+    text-decoration: none;
+}
+#LoginBox
+{
+	width:350px;
+	height:450px;
+	position:absolute;
+	top:12%;
+	left:35%;
+	bottom:25%;
+	box-sizing:border-box;
+	color:white;
+	background:rgba(0,0,0,0.3);
+	border-radius:10px;
+	text-shadow:2px 4px 5px black;
+	
+	
+}
+#LoginBox #f1 h1
+{
+	text-align:center;
+	font-family:"Times New Roman, serif";
+	font-style:oblique;
+	color:#608000;
+}
+#LoginBox #f1 p
+{
+	font-weight:bold;
+	margin-left:20px;
+}
+#LoginBox #f1 input
+{
+	width:300px;
+	margin-bottom:20px;
+	margin-left:20px;
+}
+#LoginBox #f1 input[type="text"],input[type="password"]
+{
+	border:none;
+	border-bottom:1px solid #fff;
+	background:transparent;
+	outline:none;
+	height:40px;
+	color:#fff;
+	font-size:16px;
+}
+#LoginBox #f1 input[type="submit"]
+{
+	border:none;
+	outline:none;
+	height:40px;
+	background:lightyellow;
+	color:Orange;
+	font-size:18px;
+	border-radius:15px;
+}
+#LoginBox #f1 input[type="submit"]:hover
+{
+	cursor:pointer;
+	background:green;
+}
+#LoginBox #f1 a
+{
+	position:absolute;
+	left:20px;
+	text-decoration:none;
+	font-size:20px;
+	color:darkgrey;
+}
+#LoginBox #f1 a:hover
+{
+	color:orange;
+	
+}
