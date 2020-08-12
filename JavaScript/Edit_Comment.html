@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="CloneChild.js"></script>
+    <script src="Edit_Comment.js"></script>
 </head>
 <body>
     <div id="Main">
@@ -22,9 +22,16 @@
     </div>
     <div id="CommentBox">
         <div id="innerDiv" style="display: flex; visibility: hidden; background-color: chartreuse; justify-content: space-between; width: 33%;">
-        <div id="changeDiv" style="background: chocolate;"></div>
+        <div id="changeDiv" style="background: chocolate; visibility: hidden;">
+            <div></div>
+            <input type="text">
+            <button id="Save_Button" onclick="Save_Changes(this)">Save</button>
+            <button>Cancel</button>
+
+        </div>
         <button id="Edit_button" onclick="Edit_Comment(this)">Edit</button>
         <button onclick="delete_Comment(this)">Delete</button>
+
     </div>
     </div>
 </body>

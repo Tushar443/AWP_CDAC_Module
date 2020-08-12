@@ -30,36 +30,28 @@ function ClickComment() {
 
 function delete_Comment(temp) {
     temp.parentElement.remove();
+    comm--;
+    const comment_child = document.querySelector('#Comment');
+    comment_child.innerHTML = 'Comment ' + comm;
 }
 
 function Edit_Comment(temp) {
-    let data = temp.innerHTML;
-    let mainDiv = document.createElement('div');
-    let newElement = document.createElement('input');
-    let save_element = document.createElement('button');
-    let cancel_element = document.createElement('button');
-    countid++;
-    save_element.id='saveid' + countid;
+        let ChangeDiv=document.querySelector('#changeDiv');
+        ChangeDiv.style.visibility='visible';
 
-    newElement.placeholder = data;
-    newElement.type = 'text';
-    save_element.innerHTML = 'SAVE';
-    cancel_element.innerHTML = 'Cancel';
-
-    mainDiv.appendChild(newElement);
-    // mainDiv.appendChild('br');
-    mainDiv.appendChild(save_element);
-    mainDiv.appendChild(cancel_element);
-
-    let parent = document.querySelector('#changeDiv');
-    parent.appendChild(mainDiv);
-
-        document.querySelector('#changeDiv').childNodes[0].childNodes[1].addEventListener.onClick=function(){
-        alert('Hello');
-    }
-
-
-
-    let edit_button=document.querySelector('#Edit_button');
-    edit_button.style.visibility='hidden';
 }
+
+
+function Save_Changes(temp){
+    let save_element=document.querySelector('#Save_Button').value;
+    let PArent_Element =document.querySelector(temp.parentElement);
+    
+    console.log(PArent_Element);
+
+
+
+
+}
+
+
+
